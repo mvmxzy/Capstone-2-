@@ -1,0 +1,36 @@
+.search {
+  // display: flex;
+  // width: 100%;
+  #map {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .search-main {
+    // display: flex;
+    width: 70%;
+
+    li {
+      // display: flex;
+    }
+  }
+
+  .search-right {
+    // display: flex;
+    width: 150px;
+  }
+}
+
+.card-image {
+  min-height: 210px;
+  max-height: 210px;
+}
+
+.card-title {
+      line-height: 19px !important;
+      font-size: 18px !important;
+}
+.card-content {
+  max-height: 84px
+}

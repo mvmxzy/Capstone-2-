@@ -1,0 +1,61 @@
+<!-- <div id="page-wrap">
+  <h1 id="top">Smooth Page Scrolling</h1>
+  <section>
+
+    <div class="gear-board">
+      <ul>
+        <li><img src="../../img/gear/1-supermoto.svg" alt=""></li>
+        <li><img src="../../img/gear/2-darkstar.svg" alt=""></li>
+      </ul>
+    </div>
+
+  </section>
+</div> -->
+
+<div class="carousel">
+    <figure class="carousel-item" ng-repeat='gear in gears'>
+        <img class='cimg' ng-src="{{gear.img}}">
+        <figcaption class="carousel-text">
+            {{gear.desc}}
+            <br>
+            <a href="{{gear.url}}">Check Out</a>
+        </figcaption>
+    </figure>
+
+</div>
+
+<!-- <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
+    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
+    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
+  </div> -->
+
+<div id="page-wrap">
+
+    <h1 id="top">Gears</h1>
+
+    <ul>
+        <li><a href="#two">Scroll to Section Two</a></li>
+        <li><a href="#three">Scroll to Section Three</a></li>
+    </ul>
+
+    <h2 id="one">Section One</h2>
+
+    <li><img src="../../img/gear/1-supermoto.svg" alt=""></li>
+
+    <h2 id="two">Section Two</h2>
+
+    <p><a href="#top">Top</a></p>
+
+    <li><img src="../../img/gear/2-darkstar.svg" alt=""></li>
+
+    <h2 id="three">Section Three</h2>
+
+    <p><a href="#top">Top</a></p>
+
+    <!-- <li><img src="../../img/gear/cool.jpg" alt=""></li>
+
+    <h2 id="three">Section Four</h2> -->
+
+</div>
